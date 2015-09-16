@@ -77,6 +77,11 @@ namespace CALCULADORA
                         {
                             break;
                         }
+                    case -1:
+                        {
+                            Console.WriteLine(".l.(^_^).l.");
+                            break;
+                        }
                 }
                 Console.WriteLine();
             }while(op!=5);

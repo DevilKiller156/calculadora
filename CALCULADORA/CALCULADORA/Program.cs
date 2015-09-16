@@ -15,7 +15,8 @@ namespace CALCULADORA
             do
             {
                 Console.Clear();
-                Console.WriteLine("MENU");
+                Console.WriteLine("         MENU");
+                Console.WriteLine("===CALCULADORA SIMPLE===");
                 Console.WriteLine("1 SUMAR");
                 Console.WriteLine("2 RESTAR");
                 Console.WriteLine("3 MULTIPLICAR");
@@ -80,6 +81,7 @@ namespace CALCULADORA
                     case -1:
                         {
                             Console.WriteLine(".l.(^_^).l.");
+                            Console.ReadKey();
                             break;
                         }
                 }

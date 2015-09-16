@@ -10,7 +10,7 @@ namespace CALCULADORA
     {
         static void Main(string[] args)
         {
-            int op;
+            int op,oc;
             double num1, num2, resp;
             do
             {
@@ -80,11 +80,49 @@ namespace CALCULADORA
                         }
                     case -1:
                         {
-                            Console.WriteLine(".l.(^_^).l.");
+                            do
+                            {
+                            Console.Clear();
+                            Console.WriteLine("         MENU");
+                            Console.WriteLine("===VENTA DE DROGAS Y OTROS===");
+                            Console.WriteLine("1 LSD");
+                            Console.WriteLine("2 CRACK");
+                            Console.WriteLine("3 COCODRILE");
+                            Console.WriteLine("4 MARIA");
+                            Console.WriteLine("5 SALIR");
+                            Console.WriteLine("INGRESE UNA OPCION");
+                            oc = int.Parse(Console.ReadLine());
+                            switch (oc)
+                            {
+                                case 1:
+                                    {
+                                        Console.ReadKey();
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        Console.ReadKey();
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        Console.ReadKey();
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        Console.ReadKey();
+                                        break;
+                                    }
+                                case 5:
+                                    {
+                                        break;
+                                    }
                             Console.ReadKey();
                             break;
-                        }
-                }
+                            }
+                            }
+                            }
                 Console.WriteLine();
             }while(op!=5);
         }

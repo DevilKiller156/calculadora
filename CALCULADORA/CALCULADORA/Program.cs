@@ -11,7 +11,7 @@ namespace CALCULADORA
         static void Main(string[] args)
         {
             int op;
-            int num1, num2, resp;
+            double num1, num2, resp;
             do
             {
                 Console.Clear();
@@ -28,9 +28,9 @@ namespace CALCULADORA
                     case 1:
                         {
                             Console.WriteLine("NUMERO 1: ");
-                            num1 = int.Parse(Console.ReadLine());
+                            num1 = double.Parse(Console.ReadLine());
                             Console.WriteLine("NUMERO 2: ");
-                            num2 = int.Parse(Console.ReadLine());
+                            num2 = double.Parse(Console.ReadLine());
                             resp = num1 + num2;
                             Console.WriteLine("EL RESULTADO ES: " + resp);
                             Console.ReadKey();
@@ -40,9 +40,9 @@ namespace CALCULADORA
                     case 2:
                         {
                             Console.WriteLine("NUMERO 1: ");
-                            num1 = int.Parse(Console.ReadLine());
+                            num1 = double.Parse(Console.ReadLine());
                             Console.WriteLine("NUMERO 2: ");
-                            num2 = int.Parse(Console.ReadLine());
+                            num2 = double.Parse(Console.ReadLine());
                             resp = num1 - num2;
                             Console.WriteLine("EL RESULTADO ES: " + resp);
                             Console.ReadKey();
@@ -52,9 +52,9 @@ namespace CALCULADORA
                     case 3:
                         {
                             Console.WriteLine("NUMERO 1: ");
-                            num1 = int.Parse(Console.ReadLine());
+                            num1 = double.Parse(Console.ReadLine());
                             Console.WriteLine("NUMERO 2: ");
-                            num2 = int.Parse(Console.ReadLine());
+                            num2 = double.Parse(Console.ReadLine());
                             resp = num1 * num2;
                             Console.WriteLine("EL RESULTADO ES: " + resp);
                             Console.ReadKey();
@@ -64,9 +64,9 @@ namespace CALCULADORA
                     case 4:
                         {
                             Console.WriteLine("NUMERO 1: ");
-                            num1 = int.Parse(Console.ReadLine());
+                            num1 = double.Parse(Console.ReadLine());
                             Console.WriteLine("NUMERO 2: ");
-                            num2 = int.Parse(Console.ReadLine());
+                            num2 = double.Parse(Console.ReadLine());
                             resp = num1 / num2;
                             Console.WriteLine("EL RESULTADO ES: " + resp);
                             Console.ReadKey();

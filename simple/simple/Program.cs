@@ -57,7 +57,12 @@ namespace simple
                         }
                     case 4:
                         {
-                            
+                            Console.WriteLine("INGRESE UN NUMERO: ");
+                            NUM1 = int.Parse(Console.ReadLine());
+                            Console.WriteLine("INGRESE EL SEGUNDO NUMERO: ");
+                            NUM2 = int.Parse(Console.ReadLine());
+                            RES = NUM1 / NUM2;
+                            Console.WriteLine("EL RESULTADO ES: " + RES);
                             break;
                         }
                     case 5:

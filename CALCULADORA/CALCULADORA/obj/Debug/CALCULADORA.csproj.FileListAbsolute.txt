@@ -4,3 +4,6 @@ D:\EMI\Cuarto Semestre EMI\Git\Respositorio Curso Git\CALCULADORA\CALCULADORA\bi
 D:\EMI\Cuarto Semestre EMI\Git\Respositorio Curso Git\CALCULADORA\CALCULADORA\obj\Debug\CALCULADORA.csprojResolveAssemblyReference.cache
 D:\EMI\Cuarto Semestre EMI\Git\Respositorio Curso Git\CALCULADORA\CALCULADORA\obj\Debug\CALCULADORA.exe
 D:\EMI\Cuarto Semestre EMI\Git\Respositorio Curso Git\CALCULADORA\CALCULADORA\obj\Debug\CALCULADORA.pdb
+D:\cursogit\proyecto\calculadora\CALCULADORA\CALCULADORA\bin\Debug\CALCULADORA.exe.config
+D:\cursogit\proyecto\calculadora\CALCULADORA\CALCULADORA\obj\Debug\CALCULADORA.exe
+D:\cursogit\proyecto\calculadora\CALCULADORA\CALCULADORA\obj\Debug\CALCULADORA.pdb
